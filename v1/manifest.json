@@ -1,0 +1,63 @@
+{
+  "name": "Marker Maker",
+  "version": "0.1",
+  "namespace": "bh.test.mm",
+  "package": "ExampleBHUDModule.dll",
+  "manifest_version": 1,
+
+  "description": "Create Blish HUD and TacO marker and trail packs.",
+  "dependencies": {
+    "bh.general.markersandpaths": "~1.2.3"
+  },
+  "url": "https://github.com/blish-hud/Blish-HUD",
+  "author": {
+    "name": "Freesnöw",
+    "username": "LandersXanders.1235"
+  },
+
+  "directories": [ "markers" ],
+  "actions": [ "Reload Markers" ],
+  "enabled_without_gw2": false,
+  "api_permissions": {
+    "account": {
+      "optional": true,
+      "details": "Needed if you want the special feature enabled."
+    },
+    "inventories": {
+      "optional": false,
+      "details": "Needed to review the item in your inventory."
+    },
+    "characters": {
+      "optional": false,
+      "details": "Needed to review the item in your inventory."
+    },
+    "tradingpost": {
+      "optional": false,
+      "details": "Needed to review the item in your inventory."
+    },
+    "wallet": {
+      "optional": false,
+      "details": "Needed to review the item in your inventory."
+    },
+    "unlocks": {
+      "optional": false,
+      "details": "Needed to review the item in your inventory."
+    },
+    "pvp": {
+      "optional": false,
+      "details": "Needed to review the item in your inventory."
+    },
+    "builds": {
+      "optional": false,
+      "details": "Needed to review the item in your inventory."
+    },
+    "progression": {
+      "optional": false,
+      "details": "Needed to review the item in your inventory."
+    },
+    "guilds": {
+      "optional": false,
+      "details": "Needed to review the item in your inventory."
+    }
+  }
+}
