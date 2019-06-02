@@ -141,9 +141,9 @@ Gives the module permission to access the specified API permissions.  A permissi
 
 ```json
 {
-    "api_permissions": [
+    "api_permissions": {
         "account"     : { "optional": true,  "details": "Needed if you want the special feature enabled." },
         "inventories" : { "optional": false, "details": "Needed to review the item in your inventory." }
-    ]
+    }
 }
 ```
