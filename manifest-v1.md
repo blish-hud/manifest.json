@@ -116,7 +116,7 @@ If provided, it will be used instead of the `author` attribute (if `author` is p
 }
 ```
 
-## Recommended Attributes
+## Optional Attributes
 
 ##### Directories
 A list of directory names that are used by the module.  These directories will be registered by the `FileService` and a button to open the directory directly will be shown in the module settings.
