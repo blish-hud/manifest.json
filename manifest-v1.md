@@ -18,7 +18,7 @@ The version of the package.  Should be [Semanticly Versioned](https://semver.org
 
 ```json
 {
-    "version": "1.2"
+    "version": "1.2.3"
 }
 ```
 

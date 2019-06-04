@@ -1,6 +1,6 @@
 {
   "name": "Marker Maker",
-  "version": "0.1",
+  "version": "0.1.0",
   "namespace": "bh.test.mm",
   "package": "ExampleBHUDModule.dll",
   "manifest_version": 1,
