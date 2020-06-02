@@ -97,12 +97,12 @@ The author of the module.  If there are multiple authors, use the `contributers`
 }
 ```
 
-#### Contributers
+#### Contributors
 If provided, it will be used instead of the `author` attribute (if `author` is provided, it will be ignored).  The attributes for each contributer match the structure of the `author` attribute.
 
 ```json
 {
-    "contributers": [
+    "contributors": [
         {
             "name":     "Freesnöw",
             "username": "LandersXanders.1235",
