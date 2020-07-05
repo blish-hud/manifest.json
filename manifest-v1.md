@@ -32,7 +32,7 @@ This is the primary identifier - it is a unique name for the package.  Do not ch
 ```
 
 #### Package
-The name of your compiled module with or without ".dll" at the end.
+The name of your compiled module with ".dll" at the end.
 
 ```json
 {
