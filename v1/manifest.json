@@ -10,10 +10,17 @@
     "bh.general.markersandpaths": "~1.2.3"
   },
   "url": "https://github.com/blish-hud/Blish-HUD",
-  "author": {
-    "name": "Freesnöw",
-    "username": "LandersXanders.1235"
-  },
+  "contributors": [
+    {
+      "name":     "FreesnÃ¶w",
+      "username": "LandersXanders.1235",
+      "url":      "https://github.com/dlamkins"
+    },
+    {
+      "name":     "jdoe",
+      "username": "jdoe.1234"
+    }
+  ],
 
   "directories": [ "markers" ],
   "actions": [ "Reload Markers" ],
