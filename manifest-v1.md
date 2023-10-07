@@ -49,6 +49,25 @@ The version of manifest used.  This is currently 1.
 }
 ```
 
+#### Contributors
+The author of the module, along with any contributors.  At least one contributor must be listed.  The `name` is required for each contributor.  The `username` and `url` fields are both optional.
+
+```json
+{
+    "contributors": [
+        {
+            "name":     "Freesnöw",
+            "username": "LandersXanders.1235",
+            "url":      "https://github.com/dlamkins"
+        },
+        {
+            "name":     "jdoe",
+            "username": "jdoe.1234"
+        }
+    ]
+}
+```
+
 ## Recommended Attributes
 
 #### Description
@@ -81,25 +100,6 @@ A url that can be used to link to the project or a link to more details instruct
 ```json
 {
     "url": "https://github.com/blish-hud/manifest.json"
-}
-```
-
-#### Contributors
-The author of the module, along with any contributors.  At least one contributor must be listed.  The `name` is required for each contributor.  The `username` and `url` fields are both optional.
-
-```json
-{
-    "contributors": [
-        {
-            "name":     "Freesnöw",
-            "username": "LandersXanders.1235",
-            "url":      "https://github.com/dlamkins"
-        },
-        {
-            "name":     "jdoe",
-            "username": "jdoe.1234"
-        }
-    ]
 }
 ```
 
