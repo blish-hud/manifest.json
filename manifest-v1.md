@@ -84,21 +84,8 @@ A url that can be used to link to the project or a link to more details instruct
 }
 ```
 
-#### Author
-The author of the module.  If there are multiple authors, use the `contributors` attribute, instead.
-
-```json
-{
-    "author": {
-        "name":     "Freesnöw",                   // required
-        "username": "LandersXanders.1235",        // optional
-        "url":      "https://github.com/dlamkins" // optional
-    }
-}
-```
-
 #### Contributors
-If provided, it will be used instead of the `author` attribute (if `author` is provided, it will be ignored).  The attributes for each contributor match the structure of the `author` attribute.
+The author of the module, along with any contributors.  At least one contributor must be listed.  The `name` is required for each contributor.  The `username` and `url` fields are both optional.
 
 ```json
 {
